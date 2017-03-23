@@ -55,6 +55,7 @@ var vm = new Vue({
 			});
 			this.calcTotalPrice();
 		},
+//		计算总价钱
 		calcTotalPrice: function () {
 			var _this = this;
 			this.totalMoney = 0;
@@ -64,10 +65,12 @@ var vm = new Vue({
 				}
 			})
 		},
+//		点击删除并弹出框
 		delConfirm:function (item) {
 			this.delFlag = true;
 			this.curProduct = item;
 		},
+//		删除商品
 		delProduct: function () {
 			var index = this.productList.indexOf(this.curProduct);
 			this.productList.splice(index,1);
