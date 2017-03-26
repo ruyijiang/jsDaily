@@ -211,7 +211,47 @@ a:hover{
 	top: -14px;
 }
 .form-group{
-	border: 1px solid gray;
+	border: 1px solid orange;
+}
+.order-group{
+	border: 1px dashed gray;
+	width: 408px;
+	margin: 0 auto;
+	border-radius: 6px;
+}
+.order-time{
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	
+	display: inline-block;
+   /* margin-right: -4px;*/
+}
+.order-time:first-child{
+	border-right: 1px dashed gray;
+}
+.order-time select{
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	display: block;
+	padding-left: 67px;
+	margin-right: 10px;
+	border: none;
+	color: #4AAEEA;
+	font-size: 14px;
+	
+}
+.order-time span{
+	height: 30px;
+	width: 200px;
+	display: block;
+	line-height: 30px;
+	color: #393B3B;
+	font-size: 18px;
+	
 }
 .tan1{
 	background-color: #DE4D4B;
